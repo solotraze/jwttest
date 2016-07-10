@@ -1,0 +1,16 @@
+{
+  "name": "jwttest",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "jsonwebtoken": "^7.0.1",
+    "mocha": "^2.5.3"
+  }
+}
