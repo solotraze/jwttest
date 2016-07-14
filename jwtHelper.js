@@ -1,7 +1,6 @@
 var jwt = require('jsonwebtoken');
-var secret = 'foxjumpedhereandthere';
 
-function getToken(payload) {
+function getToken(payload, secret) {
   return jwt.sign(payload, secret); //, { 'expiresInMinutes': 2 });
 }
 
